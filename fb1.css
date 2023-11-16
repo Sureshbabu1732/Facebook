@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 72px;
+    margin-left: 162px;
+    margin-bottom: 4px;
+    margin-right: 176px;
+    background-color: rgb(222, 220,224);
+}
+.leftpart{
+    margin-left: -60px ;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.loginpage{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 370px;
+    width: 380px;
+    border-radius: 10px;
+    box-shadow: -10px -10px 15px rgba(0,0,0,0.1), 10px 10px 15px rgba(0,0,0,0.1);
+}
+form{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    padding: 14px 16px;
+    font-size: 18px;
+    color: #1d2129;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 330px;
+}
+.btn2 button{
+    padding: 14px 16px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    border: 1px solid #dddfe2;
+    background-color: royalblue;
+}
+h1{
+    height: 80px;
+    font-size: 70px;
+    color: royalblue;
+}
+.btn button{
+    font-weight: 500;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    color: white;
+    background-color: #42b72a;
+    border-color: #42b72a;
+    padding: 14px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 50px;
+}
+hr{
+    width: 300px;
+    line-height: 100px;
+    color: #dddfe2;
+}
+h3{
+    margin-top: -25px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    color: #1c1e21;
+}
+.Rightpart{
+    display: block;
+    justify-content:end;
+    align-items: end;
+
+}
